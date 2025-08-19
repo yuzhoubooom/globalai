@@ -32,7 +32,8 @@ export default async function handler(req) {
       });
     }
 
-    const targetUrl = `${API_BASE_URL}/v1/dashboard/billing/subscription`;
+    const targetUrl = `${API_BASE_URL}/v1/dashboard/billing/credit_grants`;
+
 
     const response = await fetch(targetUrl, {
       method: 'GET',
